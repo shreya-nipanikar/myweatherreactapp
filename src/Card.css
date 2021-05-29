@@ -1,0 +1,9 @@
+.card {
+  background: rgba(156, 216, 240, 0.438);
+  border: none;
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.2);
+}
+.card-body {
+  font-size: 22px;
+  font-weight: 500;
+}

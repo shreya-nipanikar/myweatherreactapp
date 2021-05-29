@@ -1,38 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+body {
+  background: linear-gradient(rgba(86, 86, 86, 0.2), rgba(86, 86, 86, 0.2)),
+    url("https://www.cashadvance6online.com/data/archive/img/1179518937.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.city {
+  font-size: 45px;
+  line-height: 35px;
+}
+.temp {
+  font-size: 55px;
+}
+.input {
+  padding: 15px 50px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+.icon {
+  width: 40px;
+  height: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card-img-top {
+  height: 105px;
+}
+
+@media (max-width: 560px) {
+  .icon {
+    width: 25px;
+    height: 25px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .card-img-top {
+    height: 140px;
   }
 }
